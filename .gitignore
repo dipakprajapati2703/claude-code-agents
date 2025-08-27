@@ -1,0 +1,7 @@
+.credentials.json
+ide/
+plugins/
+projects/
+shell-snapshots/
+statsig/
+todos/
