@@ -1,13 +1,12 @@
 # Claude Code Custom Configuration Repository
 
-A comprehensive Claude Code configuration repository featuring specialized agents, custom commands, and project-specific guidelines for enhanced development workflow.
+A comprehensive Claude Code configuration repository featuring specialized agents and custom commands for enhanced development workflow.
 
 ## 🚀 Overview
 
 This repository contains:
 - **120+ Specialized Agents** - Expert AI agents for every development domain
 - **20+ Custom Commands** - Streamlined workflows for common tasks
-- **Project-Specific CLAUDE.md Files** - Tailored configurations for different tech stacks
 - **Multi-Agent Orchestration** - Coordinate multiple agents for complex projects
 
 ## 📦 Installation
@@ -182,89 +181,6 @@ Generates project documentation:
 - `/rollback` - Rollback failed deployments
 - `/upload` - Upload and deploy files
 
-## 📋 Project-Specific CLAUDE.md Files
-
-### What are CLAUDE.md Files?
-
-Project-specific configuration files that provide:
-- **Technology Stack Guidelines** - Framework-specific best practices
-- **Coding Standards** - Language and style conventions  
-- **Architecture Patterns** - Recommended design patterns
-- **Development Workflow** - Commands and procedures
-- **Security Requirements** - Security standards and practices
-
-### Available Configurations
-
-#### **Magento 2 Configuration** (`claude.md-file-projects-wise/Magento/CLAUDE.md`)
-Comprehensive Magento 2 development guide featuring:
-
-- **Project Architecture Standards**
-  - Module development patterns
-  - Service contracts implementation
-  - Dependency injection best practices
-  - Plugin and observer patterns
-
-- **Coding Standards Compliance**
-  - PSR-2 with Magento extensions
-  - PHP 8.1+ features usage
-  - Constructor property promotion
-  - Type hints and return types
-
-- **Development Workflow**
-  - CLI commands reference
-  - Cache management procedures
-  - Module development lifecycle
-  - Theme development guidelines
-
-- **Security & Performance**
-  - CSRF protection implementation
-  - SQL injection prevention
-  - Multi-store considerations
-  - Performance optimization techniques
-
-### Using CLAUDE.md Files
-
-1. **Copy to your project:**
-```bash
-cp ~/.claude/claude.md-file-projects-wise/Magento/CLAUDE.md /your-project/
-```
-
-2. **Customize for your needs:**
-- Update project-specific details
-- Add custom modules and extensions
-- Modify coding standards if needed
-- Add team-specific workflows
-
-3. **Reference during development:**
-Claude Code automatically reads CLAUDE.md files in your project directory and applies the guidelines during development.
-
-### Creating Custom CLAUDE.md Files
-
-Create project-specific configurations:
-
-```markdown
-# CLAUDE.md - Your Project Instructions
-
-## Project Overview
-- Technology stack
-- Architecture overview
-- Key requirements
-
-## Development Standards
-- Coding conventions
-- File structure
-- Naming conventions
-
-## Workflow
-- Development process
-- Testing procedures
-- Deployment steps
-
-## Security & Performance
-- Security requirements
-- Performance guidelines
-- Best practices
-```
 
 ## 🛠️ Advanced Usage
 
@@ -427,7 +343,7 @@ claude-code /security-review --secrets
 
 1. **Fork this repository**
 2. **Add your custom agents or commands**
-3. **Create project-specific CLAUDE.md files**
+3. **Test your contributions thoroughly**
 4. **Submit pull request with description**
 
 ### Agent Contributions
